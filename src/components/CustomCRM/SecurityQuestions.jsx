@@ -55,7 +55,7 @@ class SecurityQuestions extends React.Component {
           // handle errors received from the Function or from the fetch
           console.error('CRM request failed', error);
           this.setState({
-            questions: `Error: Couldn't fetch questions from CMR.`
+            questions: `Error: Couldn't fetch questions from CRM.`
           });
         });
     } else {
