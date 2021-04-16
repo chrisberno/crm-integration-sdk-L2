@@ -1,4 +1,4 @@
 import * as FlexPlugin from 'flex-plugin';
-import FeathercorpPlugin from './FeathercorpPlugin';
+import FeathercorpFx4Plugin from './FeathercorpFx4Plugin';
 
-FlexPlugin.loadPlugin(FeathercorpPlugin);
+FlexPlugin.loadPlugin(FeathercorpFx4Plugin);

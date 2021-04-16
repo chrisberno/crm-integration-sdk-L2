@@ -3,9 +3,9 @@ import { FlexPlugin } from 'flex-plugin';
 import FeatherTheme from './FeatherCorpTheme';
 import CustomCRM from './components/CustomCRM/CustomCRM';
 
-const PLUGIN_NAME = 'FeathercorpPlugin';
+const PLUGIN_NAME = 'FeathercorpFx4Plugin';
 
-export default class FeathercorpPlugin extends FlexPlugin {
+export default class FeathercorpFx4Plugin extends FlexPlugin {
   constructor() {
     super(PLUGIN_NAME);
   }

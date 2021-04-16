@@ -1,11 +1,10 @@
-.vscode
-
 # Logs
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.vscode
 
 # Runtime data
 pids
@@ -63,5 +62,6 @@ typings/
 .next
 
 # Flex related ignore
+appConfig.js
 pluginsService.js
 build/
