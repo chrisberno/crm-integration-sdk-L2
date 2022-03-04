@@ -1,5 +1,5 @@
 import React from 'react';
-import { FlexPlugin } from 'flex-plugin';
+import { FlexPlugin } from '@twilio/flex-plugin';
 import FeatherTheme from './FeatherCorpTheme';
 import CustomCRM from './components/CustomCRM/CustomCRM';
 
