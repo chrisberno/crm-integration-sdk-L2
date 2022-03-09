@@ -17,7 +17,7 @@ export default class FeathercorpFx4Plugin extends FlexPlugin {
    * @param flex { typeof import('@twilio/flex-ui') }
    * @param manager { import('@twilio/flex-ui').Manager }
    */
-  init(flex, manager) {
+  async init(flex, manager) {
     // set logo
     flex.MainHeader.defaultProps.logoUrl =
       'https://tangerine-toad-5117.twil.io/assets/feathercorp-logo-white.svg';
