@@ -20,7 +20,7 @@ export default class FeathercorpFx4Plugin extends FlexPlugin {
   async init(flex, manager) {
     // set logo
     flex.MainHeader.defaultProps.logoUrl =
-      'https://tangerine-toad-5117.twil.io/assets/feathercorp-logo-white.svg';
+      'https://i.postimg.cc/MGd7M6Cp/connie-logo-white-thin-deja-Vu-Sans.png';
 
     // set color theme
     manager.updateConfig({ colorTheme: FeatherTheme });

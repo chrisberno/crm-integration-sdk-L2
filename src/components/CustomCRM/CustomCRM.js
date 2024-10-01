@@ -21,6 +21,14 @@ function CustomCRM(props) {
   if (task && task.attributes && task.attributes.account_data) {
     profileDetails = (
       <ProfileGrid>
+      <div>
+        <Label>Service Level</Label>
+        <Value>{task.attributes.account_data.service_level}</Value>
+      </div>
+      <div>
+        <Label>Account Balance</Label>
+        <Value>{task.attributes.account_data.account_balance}</Value>
+      </div>
         <div>
           <Label>Address</Label>
           <Value>
@@ -85,6 +93,7 @@ function CustomCRM(props) {
             task.attributes.account_data.last_name}
         </LargeCaption>
         {profileDetails}
+        <SecurityQuestions />
       </ProfileCanvas>
     );
   }

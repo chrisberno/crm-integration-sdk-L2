@@ -37,7 +37,8 @@ class SecurityQuestions extends React.Component {
       this.props.task.attributes.account_number
     ) {
       // if there is an account number, fetch the security questions
-      fetch(/* insert URL of the proxy function + profile ID here */)
+      const crmProxyUrl = 'https://dev-integrations-2194.twil.io/crm-proxy';
+      fetch(`${crmProxyUrl}?id=${this.props.task.attributes.account_number}`)
         .then((response) => {
           if (response.ok) {
             return response.json();
